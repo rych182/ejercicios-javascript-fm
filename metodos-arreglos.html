@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Metodos y propiedades de los arreglos.</title>
+</head>
+<body>
+	<script>
+		//Saber la longitud de un arreglo
+		var amigos = ["Carlos", "Cesar", "Alex", 1];
+		//document.write("Tienes " + amigos.length + "Amigos");
+		//amigos[amigos.length] = "Fernando";//agrega un nombre mas a tu arreglo
+		amigos.push("Luis", "Fernando", "Oscar");//Te agrega muchos caracteres a tu arreglo directamente al final.
+		amigos.pop();//te elimina el ultimo dato de tu arreglo
+		var amigos2 = ["fulano","perengano"];
+		var amigos3 = amigos.concat(amigos2);//se esta concatenando amigos y amigos2
+		var amigos4 = amigos.join(" / ");//Te separa para valor de tu arreglo con lo que le indiques
+		var ordenados = amigos.sort(); //Te ordena tus datos alfabeticamente.
+		document.write(ordenados);
+
+
+	</script>
+
+
+</body>
+</html>
